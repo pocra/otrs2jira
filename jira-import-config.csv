@@ -1,0 +1,65 @@
+{
+  "config.version" : "2.0",
+  "config.project.from.csv" : "false",
+  "config.encoding" : "UTF-8",
+  "config.email.suffix" : "@YOURDOMAIN.COM",
+  "config.field.mappings" : {
+    "comment_time" : {
+      "jira.field" : "updated"
+    },
+    "create_time" : {
+      "jira.field" : "created"
+    },
+    "description" : {
+      "jira.field" : "description"
+    },
+    "close_time" : {
+      "jira.field" : "resolutiondate"
+    },
+    "title" : {
+      "jira.field" : "summary"
+    },
+    "priority" : {
+      "jira.field" : "priority"
+    },
+    "created_by" : {
+      "jira.field" : "reporter"
+    },
+    "attachment" : {
+      "jira.field" : "attachment"
+    },
+    "tn" : {
+      "jira.field" : "labels"
+    },
+    "comment" : {
+      "jira.field" : "comment"
+    },
+    "state" : {
+      "jira.field" : "status"
+    },
+    "change_by" : {
+      "jira.field" : "assignee"
+    },
+    "ticketid" : {
+      "jira.field" : "issuekey"
+    }
+  },
+  "config.value.mappings" : {
+    "state" : {
+      "closed successful" : "10016"
+    },
+    "priority" : {
+      "3 normal" : "3"
+    }
+  },
+  "config.delimiter" : ";",
+  "config.project" : {
+    "project.type" : null,
+    "project.key" : "ITS",
+    "project.description" : null,
+    "project.url" : null,
+    "project.name" : "IT-Helpdesk",
+    "project.lead" : null
+  },
+  "config.date.format" : "yyyy-MM-dd hh:mm:ss"
+}
